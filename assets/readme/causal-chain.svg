@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 400"
+     role="img"
+     aria-labelledby="causal-title causal-desc">
+  <title id="causal-title">从触发条件到可见症状的工程因果链</title>
+  <desc id="causal-desc">触发条件经过首个错误状态和失效机制形成可见症状；根因、促成因素与缺失屏障分别连接到因果链的不同位置。</desc>
+
+  <rect width="1200" height="400" rx="22" fill="#F2EFE7"/>
+  <rect x="1" y="1" width="1198" height="398" rx="21" fill="none" stroke="#D4CEC2" stroke-width="2"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', Arial, sans-serif">
+    <text x="58" y="64" fill="#20282C" font-size="36" font-weight="760">不要把症状叫作根因</text>
+    <text x="58" y="98" fill="#606B70" font-size="18">每个节点同时回答：它在因果链里扮演什么角色？它属于系统的哪一层？</text>
+
+    <g text-anchor="middle">
+      <rect x="58" y="145" width="190" height="78" rx="12" fill="#E3EBEF" stroke="#3E6F8E" stroke-width="2"/>
+      <text x="153" y="193" fill="#2E5C77" font-size="25" font-weight="760">触发条件</text>
+
+      <line x1="248" y1="184" x2="302" y2="184" stroke="#7F8B90" stroke-width="3"/>
+      <polygon points="314,184 299,176 299,192" fill="#7F8B90"/>
+
+      <rect x="315" y="135" width="230" height="98" rx="14" fill="#FFF0CC" stroke="#C7832F" stroke-width="3"/>
+      <circle cx="520" cy="159" r="6" fill="#C7832F"/>
+      <text x="430" y="194" fill="#865514" font-size="27" font-weight="780">首个错误状态</text>
+
+      <line x1="545" y1="184" x2="598" y2="184" stroke="#7F8B90" stroke-width="3"/>
+      <polygon points="610,184 595,176 595,192" fill="#7F8B90"/>
+
+      <rect x="611" y="145" width="230" height="78" rx="12" fill="#E5E8E8" stroke="#59676C" stroke-width="2"/>
+      <text x="726" y="193" fill="#354247" font-size="25" font-weight="760">错误如何传播</text>
+
+      <line x1="841" y1="184" x2="894" y2="184" stroke="#B9473C" stroke-width="3"/>
+      <polygon points="906,184 891,176 891,192" fill="#B9473C"/>
+
+      <rect x="907" y="145" width="235" height="78" rx="12" fill="#F2DEDB" stroke="#B9473C" stroke-width="2"/>
+      <text x="1024" y="193" fill="#8D352E" font-size="25" font-weight="760">可见症状</text>
+    </g>
+
+    <g text-anchor="middle">
+      <rect x="315" y="289" width="230" height="66" rx="11" fill="#DDECE8" stroke="#147D73" stroke-width="2"/>
+      <text x="430" y="329" fill="#116A62" font-size="21" font-weight="760">根因 / 系统性原因</text>
+      <line x1="430" y1="289" x2="430" y2="240" stroke="#147D73" stroke-width="2.5"/>
+      <polygon points="430,232 423,245 437,245" fill="#147D73"/>
+
+      <rect x="611" y="289" width="230" height="66" rx="11" fill="#E6E3DF" stroke="#7B7068" stroke-width="2"/>
+      <text x="726" y="329" fill="#5E554F" font-size="21" font-weight="760">促成因素</text>
+      <line x1="726" y1="289" x2="726" y2="231" stroke="#7B7068" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+      <rect x="907" y="289" width="235" height="66" rx="11" fill="#E9E4ED" stroke="#74677E" stroke-width="2"/>
+      <text x="1024" y="329" fill="#5E5069" font-size="21" font-weight="760">缺失屏障</text>
+      <line x1="1024" y1="289" x2="1024" y2="231" stroke="#74677E" stroke-width="2.5" stroke-dasharray="6 5"/>
+    </g>
+  </g>
+</svg>
