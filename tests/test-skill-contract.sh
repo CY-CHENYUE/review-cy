@@ -26,7 +26,7 @@ reject_text() {
 require_file "$SKILL"
 require_text "$SKILL" "name: review-cy"
 require_text "$SKILL" "license: Apache-2.0"
-require_text "$SKILL" 'version: "3.0.0"'
+require_text "$SKILL" 'version: "3.1.0"'
 require_text "$SKILL" "默认只读"
 require_text "$SKILL" "修复尝试账本"
 require_text "$SKILL" "爆炸半径"
